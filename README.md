@@ -34,8 +34,6 @@ This project was developed as an **academic + industry-oriented application**, e
 
 <img width="1902" height="869" alt="Screenshot 2026-02-03 233836" src="https://github.com/user-attachments/assets/44d4695e-34ec-44d8-bbec-bed2fceafb90" />
 
-<img width="1117" height="589" alt="Screenshot 2026-02-03 233901" src="https://github.com/user-attachments/assets/155a06f3-ff3d-4e4e-ac19-86be5631fad7" />
-
 <img width="1896" height="838" alt="Screenshot 2026-02-03 233919" src="https://github.com/user-attachments/assets/e34071a5-7e41-4dfb-bf8b-596a8c603b5e" />
 
 <img width="1899" height="869" alt="Screenshot 2026-02-03 234011" src="https://github.com/user-attachments/assets/ebb45562-e903-4c4a-af25-383bc5d495d2" />
