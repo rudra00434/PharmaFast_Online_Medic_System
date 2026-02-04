@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+        
+
+    <!-- Patient Register Servlet -->
+    <servlet>
+        <servlet-name>PatientRegisterServlet</servlet-name>
+        <servlet-class>Controller.PatientRegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PatientRegisterServlet</servlet-name>
+        <url-pattern>/PatientRegisterServlet</url-pattern>
+    </servlet-mapping>
+    
+     <!-- Doctor Register Servlet -->
+    <servlet>
+        <servlet-name>DoctorRegisterServlet</servlet-name>
+        <servlet-class>Controller.DoctorRegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DoctorRegisterServlet</servlet-name>
+        <url-pattern>/DoctorRegisterServlet</url-pattern>
+    </servlet-mapping>
+     
+    <!-- Patient Login Servlet -->
+    <servlet>
+        <servlet-name>PatientLoginServlet</servlet-name>
+        <servlet-class>Controller.PatientLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PatientLoginServlet</servlet-name>
+        <url-pattern>/PatientLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Doctor Login Servlet -->
+    <servlet>
+        <servlet-name>DoctorLoginServlet</servlet-name>
+        <servlet-class>Controller.DoctorLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoctorLoginServlet</servlet-name>
+        <url-pattern>/DoctorLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Appointment Servlet -->
+    <servlet>
+        <servlet-name>AppointmentServlet</servlet-name>
+        <servlet-class>Controller.AppointmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AppointmentServlet</servlet-name>
+        <url-pattern>/AppointmentServlet</url-pattern>
+    </servlet-mapping>
+    <!-- Appointment Action Servlet (Approve / Reject) -->
+<servlet>
+    <servlet-name>AppointmentActionServlet</servlet-name>
+    <servlet-class>Controller.AppointmentActionServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AppointmentActionServlet</servlet-name>
+    <url-pattern>/AppointmentActionServlet</url-pattern>
+</servlet-mapping>
+    
+    <!-- Medicine Servlet -->
+    <servlet>
+        <servlet-name>MedicineServlet</servlet-name>
+        <servlet-class>Controller.MedicineServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MedicineServlet</servlet-name>
+        <url-pattern>/MedicineServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Medicine Stock management Servlet -->
+    
+   <servlet>
+    <servlet-name>UpdateStockServlet</servlet-name>
+    <servlet-class>Controller.UpdateStockServlet</servlet-class>
+  </servlet>
+
+ <servlet-mapping>
+    <servlet-name>UpdateStockServlet</servlet-name>
+    <url-pattern>/UpdateStockServlet</url-pattern>
+ </servlet-mapping>
+     
+    <!-- Admin Servlet -->
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <servlet-class>Controller.AdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/AdminServlet</url-pattern>
+    </servlet-mapping>
+    <!-- Add medcines -->
+    <servlet>
+    <servlet-name>AddMedicineServlet</servlet-name>
+    <servlet-class>Controller.AddMedicineServlet</servlet-class>
+   </servlet>
+
+<servlet-mapping>
+    <servlet-name>AddMedicineServlet</servlet-name>
+    <url-pattern>/AddMedicineServlet</url-pattern>
+</servlet-mapping>
+    
+
+    <!-- Welcome File -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
